@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Sum extends Component {
     constructor() {
         super()
-        let state = {
+        this.state = {
             number1: 0,
             number2: 0,
             sum: null
