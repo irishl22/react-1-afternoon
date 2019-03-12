@@ -1236,7 +1236,7 @@ export default class Palindrome extends Component {
 
   isPalindrome(userInput) {
     var forwards = userInput;
-    var backwards = userInput;
+    var backwards = userInput;9
     backwards = backwards.split('');
     backwards = backwards.reverse();
     backwards = backwards.join('');
